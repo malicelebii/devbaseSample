@@ -9,7 +9,7 @@ function Car(props) {
 
   cars = cars.map((car) => (
     <Grid.Column width={4} style={{ marginTop: "20px" }}>
-      <Link to={`https://devbasesample.herokuapp.com/cars/${car._id}`}>
+      <Link to={`/cars/${car._id}`}>
         <Card
           style={{ width: "400px", height: "400px" }}
           image={car.image}
